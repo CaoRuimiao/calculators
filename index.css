@@ -1,0 +1,234 @@
+body{
+	min-width: 1300px;
+}
+.sence{
+	width: 960px;
+	margin: 30px auto;
+	padding: 20px;
+	box-shadow: 0 0 5px black;
+	position: relative;
+	overflow: hidden;
+	background: #D1BDFF;  /*#BDE0FF*/
+	padding: 35px 35px 35px 55px;
+}
+.clear{
+	clear: both;
+}
+.title{
+	width: 300px;
+	margin-left: -152px;
+	font-size: 26px;
+	color: white;
+	text-align: center;
+	-webkit-transform:rotateZ(-45deg);
+	position: absolute;
+	z-index: 2;
+}
+/*7.计算器*/
+#calculator1{
+	width: 320px;
+	/*height: 480px;*/
+	background: #EEE;
+	border-radius: 3px;
+	/*float: left;*/
+	margin: 0 auto;
+}
+#header1{
+	width: 320px;
+	height: 25px;
+	background: black;
+}
+#clock1{
+	color: white;
+	text-align: center;
+	line-height: 25px;
+}
+#screen1{
+	width: 90%;
+	height: 80px;
+	margin: 10px auto;
+	background: #ccc;
+	border-radius: 6px;
+	font-size: 48px;
+	line-height: 80px;
+	text-align: right;
+	overflow: hidden;
+	/*box-shadow: 1px 1px 5px black inset,-1px -1px 5px black inset;*/
+}
+#jianPan1{
+	width: 94%;
+	margin: 5px auto 15px;
+	position: relative;
+	padding-bottom: 10px;
+}
+.jian1{
+	width:62px;
+	height: 48px; 
+	background: #ccc;
+	border-radius: 5px;
+	font-size: 24px;
+	text-align: center;
+	line-height: 48px;
+	float: left;
+	margin: 6px;
+	cursor: pointer;
+}
+.jian1:hover,#denghao1:hover{
+	background: rgb(234,2,236);
+}
+#denghao1{
+	height: 108px;
+	line-height: 108px;
+	position: absolute;
+	bottom: 10px;
+	right: 4px;
+	background: #FFE57E;
+}
+#ling1{
+	width: 136px;
+}
+#calculator2{
+	width: 560px;
+	background: #EEE;
+	/*float: left;*/
+	margin: 0 auto;
+	border-radius: 3px;
+}
+#header2{
+	width: 560px;
+	height: 25px;
+	background: black;
+}
+#clock2{
+	color: white;
+	text-align: center;
+	line-height: 25px;
+}
+#screen2{
+	width: 94%;
+	height: 50px;
+	margin: 10px auto;
+	background: #ccc;
+	border-radius: 6px;
+	font-size: 48px;
+	line-height: 50px;
+	text-align: right;
+	overflow: hidden;
+}
+#jianPan2{
+	width: 96%;
+	margin: 5px auto 12px;
+	position: relative;
+	padding-bottom: 10px;
+}
+.jian2{
+	width:57px;
+	height: 35px; 
+	background: #ccc;
+	border-radius: 5px;
+	font-size: 22px;
+	text-align: center;
+	line-height: 35px;
+	float: left;
+	margin: 5px;
+	cursor: pointer;
+}
+.jian2:hover,#denghao2:hover{
+	background: rgb(234,2,236);
+}
+#denghao2{
+	height: 80px;
+	line-height: 80px;
+	float: right;
+	margin-right: 6px;
+	background:#FFE57E;
+}
+#ling2{
+	width: 124px;
+}
+/*斜抛*/
+#yuanZi{
+	width: 100px;
+	height: 100px;
+	border-radius: 6px;
+	background: red;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+/*选项卡效果*/
+#box{
+	width: 1000px;
+	height: 220px;
+	margin: 0 auto;
+}
+.biaoQian{
+	width: 60px;
+	height: 45px;
+	border-radius: 50%;
+	background: black;
+	margin: 20px 70px;
+	float: left;
+	color: white;
+	font-size: 2em;
+	text-align: center;
+	line-height: 45px;
+	cursor: pointer;
+}
+.neiRong{
+	width: 100px;
+	height: 100px;
+	margin: 30px 50px;
+	float: left;
+	border-radius: 6px;
+	background: rgba(255,255,0,0.8);
+	color: black;
+	font-size: 2em;
+	text-align: center;
+	line-height: 100px;
+}
+/*3D轮播*/
+#rongQi{
+	width: 300px;
+	height: 300px;
+	margin: 10px auto;
+	/*border: 1px solid black;*/
+	position: relative;
+	perspective:800px;
+	/*-webkit-transform-style:preserve-3d;*/
+}
+.mian{
+	width: 260px;
+	height: 200px;
+	border-radius: 5px;
+	background: green;
+	position: absolute;
+	top: 50px;
+	left: 20px;
+	font-size: 2em;
+	color: white;
+	text-align: center;
+	line-height: 180px;
+}
+/*fixed侧边tips*/
+#fixBig{
+	position: fixed;
+	top: 50px;
+	right: 10px;
+	z-index: 3;
+}
+.fixTips{
+	padding: 10px 6px;
+	margin: 10px auto;
+	font-size: 18px;
+	color: white;
+	text-align: center;
+	line-height: 16px;
+	background: black;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.fixTips:hover{
+	color: black;
+	background: #7BFF87;
+}
